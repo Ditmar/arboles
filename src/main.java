@@ -1,3 +1,4 @@
+import java.util.Vector;
 
 public class main {
 
@@ -14,9 +15,11 @@ public class main {
 		aux2.rigth = new Nodo(5);
 		aux3.left = new Nodo(6);
 		aux3.rigth = new Nodo(7);
-		Recorridos r = new Recorridos(root);
-		r.run();
 		
+		Recorridos r = new Recorridos(root);
+		
+		r.run("anchura");
+	
 	}
 	
 
